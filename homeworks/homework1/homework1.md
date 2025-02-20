@@ -57,5 +57,45 @@ It is possible for there to be interference with user programs. Some potential a
 - ```exit``` will close the current shell and return to the previous shell.
 
 ### 5. Open two different shells in two different terminals, get information from both using either ```ls -some_flag``` or ```ps -some_flag``` or ```htop``` command, and then use another command to terminate the older fo the two shells from the newer shell. Show a screenshot of both terminals with the executed commands.
+1. From older bash shell
+```
+[joshg@Hypr:~]$ echo $0
+bash
+
+[joshg@Hypr:~]$ ps $$
+    PID TTY      STAT   TIME COMMAND
+   2705 pts/2    S      0:00 bash
+```
+
+2. From newer zsh shell
+```
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:06]
+└─[$] <> echo $0
+/run/current-system/sw/bin/zsh
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:06]
+└─[$] <> ps $$  
+    PID TTY      STAT   TIME COMMAND
+   3387 pts/1    Ss     0:00 /run/current-system/sw/bin/zsh
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:07]
+└─[$] <> ps -eo pid,lstart,cmd | grep -E 'bash|zsh'
+   2426 Thu Feb 20 15:01:11 2025 /run/current-system/sw/bin/zsh
+   2625 Thu Feb 20 15:01:13 2025 /run/current-system/sw/bin/zsh
+   2705 Thu Feb 20 15:01:19 2025 bash
+   3387 Thu Feb 20 15:06:43 2025 /run/current-system/sw/bin/zsh
+   3557 Thu Feb 20 15:07:28 2025 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox -E bash|zsh
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:07]
+└─[$] <> kill -9 2705
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:12]
+└─[$] <> ps -eo pid,lstart,cmd | grep -E 'bash|zsh'
+   2426 Thu Feb 20 15:01:11 2025 /run/current-system/sw/bin/zsh
+   2625 Thu Feb 20 15:01:13 2025 /run/current-system/sw/bin/zsh
+   3387 Thu Feb 20 15:06:43 2025 /run/current-system/sw/bin/zsh
+   4178 Thu Feb 20 15:09:18 2025 /run/current-system/sw/bin/zsh
+   5819 Thu Feb 20 15:10:58 2025 /run/current-system/sw/bin/zsh
+   6489 Thu Feb 20 15:13:05 2025 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox -E bash|zsh
+┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:13]
+└─[$] <> 
+```
+**NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command
 
 
