@@ -95,8 +95,13 @@ bash
 ┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:13]
 └─[$] <> 
 ```
+<div align="center">
 
-3. ![Screenshot showing the terminals side by side](./HW1Q3_Terminal_Screenshot.png)
+**Screenshot showing the two terminals**  
+![Screenshot showing the terminals side by side](./HW1Q3_Terminal_Screenshot.png)
+</div>
+
+
 
 **NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command. It can also be observed that the left terminal exits bash and goes back to the default zsh shell.
 
