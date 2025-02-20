@@ -98,4 +98,11 @@ bash
 ```
 **NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command
 
+## Problem 4 - Altering simple instruction cycle to incorporate interrupts. 
+### In a simple computing machine let all memory addresses lower than or equal to 100 belong to the kernel space, and those higher than 100 belong to the user space. Suppose that the mode register has value 0 when the processor is in the kernel mode.
+
+### 1. Which states/phases of handling an instruction must be modified to address the possibility of memory violations or timer interrupts?
+
+### 2. What if the above two events occur almost simultaneously? How do you imagine that the OS prioritizes to handle these events?
+
 
