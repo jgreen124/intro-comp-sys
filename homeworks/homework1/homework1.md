@@ -96,6 +96,9 @@ bash
 ┌─[joshg@Hypr] - [~] - [Thu Feb 20, 15:13]
 └─[$] <> 
 ```
+
+3. ![Screenshot showing the terminals side by side](./HW1Q3_Terminal_Screenshot.png)
+
 **NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command
 
 ## Problem 4 - Altering simple instruction cycle to incorporate interrupts. 
