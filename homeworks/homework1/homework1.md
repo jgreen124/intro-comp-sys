@@ -16,7 +16,6 @@
 |Trigger|External Device/Timer|Program Instruction|
 |Return Exception|Can resume program execution|Can resume after OS service|
 |Priority|Can be masked by CPU|Not Masked|
-
 </div>
 
 ## Problem 2 - Direct Memory Access
@@ -99,7 +98,7 @@ bash
 
 3. ![Screenshot showing the terminals side by side](./HW1Q3_Terminal_Screenshot.png)
 
-**NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command
+**NOTE:** After killing the bash process, we can no longer find that process with the ```ps -eo pid, lstart,cmd | grep -E 'bash|zsh'``` command. It can also be observed that the left terminal exits bash and goes back to the default zsh shell.
 
 ## Problem 4 - Altering simple instruction cycle to incorporate interrupts. 
 ### In a simple computing machine let all memory addresses lower than or equal to 100 belong to the kernel space, and those higher than 100 belong to the user space. Suppose that the mode register has value 0 when the processor is in the kernel mode.
