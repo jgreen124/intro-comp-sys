@@ -121,23 +121,22 @@ If a memory violation and a timer interrupt occur at the same time, the memory v
 ### Part a:
 In Polled I/O, we modify the Naïve Receive to Polled Receive because we might end up in a situation where the CPU thinks that data is always available. This issue is fixed with polling because the CPU needs to check that there is data available, preventing access to an empty buffer. The Transmit can remain unchanged because the CPU only writes data when it wants to send a message, meaning that the CPU is the one initiating the transmission anyway.
 
----
-
 ### Part b:
 A fictitious processor (CPU) has a fictitious OS loaded and together they have the following characteristics/performance metrics:
 
-- **Load from memory:** 300 clock cycles
-- **Store to memory:** 250 clock cycles
-- **Interrupt latency for first interrupt (initiating):** 2,500 instructions (assume each instruction takes two clock cycles)
-- **Interrupt latency for second interrupt (concluding):** 800 instructions (assume each instruction takes two clock cycles)
-- **Set up information for DMA:** 4 loads (base and bound registers)
+- Load from memory: 300 clock cycles
+- Store to memory: 250 clock cycles
+- Interrupt latency for first interrupt (initiating): 2,500 instructions (assume each instruction takes two clock cycles)
+- Interrupt latency for second interrupt (concluding): 800 instructions (assume each instruction takes two clock cycles)
+- Set up information for DMA 4 loads (base and bound registers)
 
-#### Packet Size for PIO to be Faster than DMA
-For packet sizes less than or equal to **14 bytes**, PIO is faster than DMA.
+---
+
+For packet sizes less than or equal to 14 bytes, PIO is faster than DMA.
 
 For PIO:
-- The **load** takes **300 cycles**.
-- The **store to memory** takes **250 cycles**.
+- The load takes 300 cycles.
+- The store to memory takes 250 cycles.
 - Each byte is transmitted separately.
 - Total PIO latency:
 
@@ -145,19 +144,19 @@ $$
 \text{Latency}_{PIO} = (250 + 300)N = 550N
 $$
 
-where \( N \) is the total number of bytes.
+where $N$ is the total number of bytes.
 
 For DMA:
-- **First interrupt latency:** \( 2500 \times 2 = 5000 \) cycles
-- **Second interrupt latency:** \( 800 \times 2 = 1600 \) cycles
-- **Setup time:** \( 4 \times 300 = 1200 \) cycles
+- First interrupt latency: $2500 \times 2 = 5000$ cycles
+- Second interrupt latency: $800 \times 2 = 1600$ cycles
+- Setup time: $4 \times 300 = 1200$ cycles
 - Total DMA latency:
 
 $$
 \text{Latency}_{DMA} = 5000 + 1200 + 1600 = 7800
 $$
 
-Solving the inequality for \( N \):
+Solving the inequality for $N$:
 
 $$
 550N < 7800
@@ -167,15 +166,15 @@ $$
 N < \frac{7800}{550} = 14.18
 $$
 
-Since \( N \) must be an integer, **PIO is faster for packet sizes \( N \leq 14 \)**.
+Since $N$ must be an integer, PIO is faster for packet sizes $N \leq 14$.
 
 ---
 
 ### Effect of Memory-Mapped Registers (RISC-V)
-Since RISC-V is **64-bit**, a register can store **8 bytes** at a time. This means we can now transfer **8 bytes per store** instead of 1.
+Since RISC-V is 64-bit, a register can store 8 bytes at a time. This means we can now transfer 8 bytes per store instead of 1.
 
-- The **load and store for the 8 bytes** still take **300 cycles** and **250 cycles**, respectively.
-- We can now transmit **8 bytes over 550 cycles instead of just 1**.
+- The load and store for the 8 bytes still take 300 cycles and 250 cycles, respectively.
+- We can now transmit 8 bytes over 550 cycles instead of just 1.
 - The new PIO latency model:
 
 $$
@@ -192,4 +191,24 @@ $$
 N < \frac{7800 \times 8}{550} = 113.45
 $$
 
-Rounding down, **PIO is faster for packet sizes \( N \leq 113 \) bytes**.
+Rounding down, PIO is faster for packet sizes $N \leq 113$ bytes.
+
+## Problem 6 - Modes of Data Transfer - per Byte or DMA
+### 1. Why did we need to modify the Naive Receive to Polled Receive but left the Transmit task to execute a while loop
+The Naive Receive is modifed to a Polled Receive to prevent the CPU from assuming that there is data always available. This can result in the CPU reading from an empty buffer. With a Polled Receive, the CPU has to ask if there is data, preventing this possibility. Since the CPU initiates the Transmit, the transmit can stay in a loop because there isn't the possibility of the accessing an empty buffer.
+### 2. In the Programmed I/O, what are the benefits of using Memory-Mapped Registers?
+There are several benefits to using memory-mapped registers:
+1. Memory Mapped registers can be accessed during load/store instructions, meaning the CPU can interact with peripherals without the need for special I/O instructions.
+2. Memory Mapped Registers can handle multiple bytes at once, meaning the number of instructions can be reduced.
+3. Memory mapped Registers allow for faster context switching by removing the need for CPU priviledge levels or additional I/O instructions. 
+4. Memory Mapped registers enable direct access to peripheral status and control registers.
+### 3. In the Polled System, if there are changes in the status registers then there is a trap to the OS
+#### Part A: How often or under what circumstances do we have a trap in the Polled RX system? Describe the process and the hardware components involved when there is actually a trap taking place.
+While a trap to the OS doesn't normally occur in a polled system, they can occur when there is illegal memory access or if there are hardware errors. The hardware involved when there is actually a trap taking place include:
+1. The CPU detecting the status change and initiating the trap.
+2. The MMU ensuring valid memory access
+3. RX Buffer storing received data and updating status registers.
+4. System Bus allowing data transfer between CPU, memory, and peripherals.
+#### Part B: Why in your opinion the interrupt(s) in DMA are much more expensive than the trap in the Polled system? Is the trap in the Polled RX an interrupt after all? If it is, then what could be the reason for this major difference in the clock cycles compared to the interrupts that take place in DMA transfer?
+Interrupts in DMA are much more expensive than traps in a Polled system because the DMA requires an interrupt service routine for context switching, DMA triggering two at minimum two interrupts, and adding more cycles by needing memory-mapped register updates. WHen compared to polled systems, a trap is handled without a context switch, and a polled trap only requires checking the status register.
+
