@@ -109,7 +109,87 @@ bash
 ### In a simple computing machine let all memory addresses lower than or equal to 100 belong to the kernel space, and those higher than 100 belong to the user space. Suppose that the mode register has value 0 when the processor is in the kernel mode.
 
 ### 1. Which states/phases of handling an instruction must be modified to address the possibility of memory violations or timer interrupts?
-
+1. Decode - During the decode step, if the instruction accesses an address in kernel space (a register with an address <=100), then an execption should be thrown.
+2. Exectue - During the execute step, if the instruction attempts an invalid memory access, an interrupt should be raised before execution completes.
+3. Timer Interrupt - A timer interrupt should be checked after each instruction is executed, and if a timer interrupt occurs, it should come before instruction execution and transfer control to the OS scheduler.
+ 
 ### 2. What if the above two events occur almost simultaneously? How do you imagine that the OS prioritizes to handle these events?
+If a memory violation and a timer interrupt occur at the same time, the memory violation should take priority to the timer interrupt. This is because invalid memory access can cause issues with the system, such as instability or insecurity, while timer interrupts do not necessarily indicate an urgent issue. 
 
+## Problem 5: DMA Quantitative Problem
 
+### Part a:
+In Polled I/O, we modify the Naïve Receive to Polled Receive because we might end up in a situation where the CPU thinks that data is always available. This issue is fixed with polling because the CPU needs to check that there is data available, preventing access to an empty buffer. The Transmit can remain unchanged because the CPU only writes data when it wants to send a message, meaning that the CPU is the one initiating the transmission anyway.
+
+---
+
+### Part b:
+A fictitious processor (CPU) has a fictitious OS loaded and together they have the following characteristics/performance metrics:
+
+- **Load from memory:** 300 clock cycles
+- **Store to memory:** 250 clock cycles
+- **Interrupt latency for first interrupt (initiating):** 2,500 instructions (assume each instruction takes two clock cycles)
+- **Interrupt latency for second interrupt (concluding):** 800 instructions (assume each instruction takes two clock cycles)
+- **Set up information for DMA:** 4 loads (base and bound registers)
+
+#### Packet Size for PIO to be Faster than DMA
+For packet sizes less than or equal to **14 bytes**, PIO is faster than DMA.
+
+For PIO:
+- The **load** takes **300 cycles**.
+- The **store to memory** takes **250 cycles**.
+- Each byte is transmitted separately.
+- Total PIO latency:
+
+$$
+\text{Latency}_{PIO} = (250 + 300)N = 550N
+$$
+
+where \( N \) is the total number of bytes.
+
+For DMA:
+- **First interrupt latency:** \( 2500 \times 2 = 5000 \) cycles
+- **Second interrupt latency:** \( 800 \times 2 = 1600 \) cycles
+- **Setup time:** \( 4 \times 300 = 1200 \) cycles
+- Total DMA latency:
+
+$$
+\text{Latency}_{DMA} = 5000 + 1200 + 1600 = 7800
+$$
+
+Solving the inequality for \( N \):
+
+$$
+550N < 7800
+$$
+
+$$
+N < \frac{7800}{550} = 14.18
+$$
+
+Since \( N \) must be an integer, **PIO is faster for packet sizes \( N \leq 14 \)**.
+
+---
+
+### Effect of Memory-Mapped Registers (RISC-V)
+Since RISC-V is **64-bit**, a register can store **8 bytes** at a time. This means we can now transfer **8 bytes per store** instead of 1.
+
+- The **load and store for the 8 bytes** still take **300 cycles** and **250 cycles**, respectively.
+- We can now transmit **8 bytes over 550 cycles instead of just 1**.
+- The new PIO latency model:
+
+$$
+\text{Latency}_{PIO} = \frac{550N}{8}
+$$
+
+The DMA latency remains the same, so solving the inequality again:
+
+$$
+\frac{550N}{8} < 7800
+$$
+
+$$
+N < \frac{7800 \times 8}{550} = 113.45
+$$
+
+Rounding down, **PIO is faster for packet sizes \( N \leq 113 \) bytes**.
