@@ -1,0 +1,10 @@
+Line Count Results
+------------------
+file1.txt: 6 lines (Running total: 6)
+file2.txt: 5 lines (Running total: 11)
+file3.txt: 4 lines (Running total: 15)
+file4.txt: 3 lines (Running total: 18)
+file5.txt: 1 lines (Running total: 19)
+-----------------
+Total files checked: 6
+Final total lines: 19

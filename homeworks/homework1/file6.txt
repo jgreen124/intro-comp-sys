@@ -1,0 +1,4 @@
+This is line 1 in file6.txt
+This is line 2 in file6.txt
+This is line 3 in file6.txt
+This is line 4 in file6.txt
