@@ -212,3 +212,6 @@ While a trap to the OS doesn't normally occur in a polled system, they can occur
 #### Part B: Why in your opinion the interrupt(s) in DMA are much more expensive than the trap in the Polled system? Is the trap in the Polled RX an interrupt after all? If it is, then what could be the reason for this major difference in the clock cycles compared to the interrupts that take place in DMA transfer?
 Interrupts in DMA are much more expensive than traps in a Polled system because the DMA requires an interrupt service routine for context switching, DMA triggering two at minimum two interrupts, and adding more cycles by needing memory-mapped register updates. WHen compared to polled systems, a trap is handled without a context switch, and a polled trap only requires checking the status register.
 
+### Problem 7 - C Programming - Files
+
+
