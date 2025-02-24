@@ -213,5 +213,8 @@ While a trap to the OS doesn't normally occur in a polled system, they can occur
 Interrupts in DMA are much more expensive than traps in a Polled system because the DMA requires an interrupt service routine for context switching, DMA triggering two at minimum two interrupts, and adding more cycles by needing memory-mapped register updates. WHen compared to polled systems, a trap is handled without a context switch, and a polled trap only requires checking the status register.
 
 ### Problem 7 - C Programming - Files
+```merge_files.c``` takes in two or three arguments. The first two arguments are input files, and the third (optional) argument is the output file. The C program will take the contents of the input files and write them to the specified output file or ```myfile.out``` if no output is specified. To run ```merge_files.c```:
+1. run ```make``` to compile the C program
+2. Run either ```./merge_files {input1} {input2} [output]``` or ```./merge_files {input1} {input2}``` 
 
 
