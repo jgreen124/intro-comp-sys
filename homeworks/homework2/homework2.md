@@ -29,5 +29,39 @@ Here is a step by step walkthrough of the code execution:
 # Insert Picture for Question 1 Here
 
 
-## Problem 
+## Problem 3: Suppose you run the following program on your shell (this is pseudo-code):
+```c
+#include <stdio.h>
+#include <unistd.h>
+int i,j = 0;
+main() {
+i++; // i=i+3;
+printf("%d\n", i);
+fork();
+i+=7; // i=i+77;
+for (j=0; j<27,000; j++) i+=odd(j);
+printf("%d\n", i);
+fork();
+i+=17; // i=i+19;
+printf("%d\n", i);
+fork();
+i+=23; // i=i+23;
+printf("%d\n", i);
+}
+```
 
+### 1. Please explain what you would “expect” to see on your screen at run-time of the program. You are to analyze and understand what happens with the code but not yet execute it. Use your critical thinking.
+I would expect to see that when we run this program we will see the number 1 printed once, another number printed 2 times, another number printed 4 times, and another number printed 8 times. We should see 15 printouts in total:
+1. The first printout is just the number 1. This is because we have one process running so it runs at the first print statement.
+2. We fork the first process, now meaning we have two processes running. Both of these processes enter the for loop, repeatedly adding `odd(j)` to i, and then each of these processes print the final result after exiting the loop. These processes will print the same number.
+3. Each of the processes will be forked again, meaning we now have 4 processes running now. Each of these processes add 17 to i and will print the result, meaning this number gets printed 4 times.
+4. Each of these processes gets forked again, meaning we now have 8 processes running. Each of these processes add 23 to i and will print the result, meaning this number gets printed 8 times.
+
+### 2. Is the output order deterministic (is there only one combination for the output or more)? Why yes orwhy not? List a number of potential output combinations WITHOUT EXECUTING THE PROGRAM YET. Use your critical thinking.
+The output order is not deterministic because the order in which the threads finish is not guarenteed. We can basically guarentee that the first printout will be 1 because there is only one process afterwards, but after that we can't be sure of the exact order of the printouts. Below are a couple of potential orders that the processes can print:
+1. process 1, process 1, process 1, process 2, process 1, processs 3, process 2, process 4, process 3, process 2, process 5, process 7, process 6, porcess 5, process 8
+
+2. process 1, process 1, process 1, process 2, process 3, process 2, process 1, process 5,process 2, process 3, process 4, process 7, process 5, process 6, process 8 
+
+While the order of the printouts isn't deterministic, the number of printouts is always 15, and the specific value of the numbers that get printed are deterministic. It is just that the order is not deterministic.
+ 
