@@ -19,6 +19,9 @@ Here is a step by step walkthrough of the code execution:
 3. After printing the statement, process `c1` calls `fork()` and creates another child process, `c2`, with `PID = 1002`.
 4. When inside process `c2`, we exit the loop and terminate the process. This is because `p = 0` when inside process `c2`, and `i = 1` after exiting the loop, so `i>p` and the loop exits. When inside process `c1`, `p = 1002` since we just created another child. Even though `i = 1`, `i <= p`, so `c1` continues.
 5. Because of this, loop `c1` will continue indefinitely because it will always call `fork()`, increasing `p`. Therefore, `i>p` is impossible in process `c1`. Each time, loop `c1` will print out `GrPR: 1000, Pr: x, num: 0, iter = 0`, where x is the process id of the new child that ends up just exiting immediately.
+
+![Problem 1 - Tree Diagram showing processes being forked](./HW2Q1Pic.png)
+
 ### 2. Does this program end or does it run indefinitely?
 - This program will run indefinitely because the first child process will always create new child processes and therefore never reach the end condition of the loop.
 ### 3. Is this a fork bomb (the number of forked processes keeps growing during execution and as a result system resources are depleted)?
@@ -26,7 +29,7 @@ Here is a step by step walkthrough of the code execution:
 ### 4. How many processes are forked? How many processes run concurrently at any time?
 - At most there are 3 processes forked at a time, and of those three, two will run concurrently at any time. Since the parent process will wait at the `waitpid(p)` command, it has to wait for the child process to end, which it never will. However, the child process of the child process will run at the same time as its parent because the parent doesn't have to wait for the child process to end.
 
-# Insert Picture for Question 1 Here
+
 
 
 ## Problem 3: Suppose you run the following program on your shell (this is pseudo-code):
