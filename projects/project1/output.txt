@@ -1,0 +1,664 @@
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15268 with return arg 2 and my parent is 15262
+Hi I'm process 15268 with return arg 2, I found the hidden key -74 in position 73
+Hi I'm process 15268 with return arg 2, I found the hidden key -43 in position 268
+Process 15268 (return arg 2): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15275 with return arg 3 and my parent is 15262
+Hi I'm process 15275 with return arg 3, I found the hidden key -52 in position 348
+Hi I'm process 15275 with return arg 3, I found the hidden key -25 in position 401
+Process 15275 (return arg 3): Max=1000, Avg=538.40, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15288 with return arg 1 and my parent is 15256
+Hi I'm process 15288 with return arg 1, I found the hidden key -74 in position 73
+Hi I'm process 15288 with return arg 1, I found the hidden key -43 in position 268
+Process 15288 (return arg 1): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15299 with return arg 2 and my parent is 15256
+Hi I'm process 15299 with return arg 2, I found the hidden key -52 in position 348
+Hi I'm process 15299 with return arg 2, I found the hidden key -25 in position 401
+Process 15299 (return arg 2): Max=1000, Avg=538.40, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15304 with return arg 5 and my parent is 15265
+Hi I'm process 15304 with return arg 5, I found the hidden key -75 in position 2029
+Process 15304 (return arg 5): Max=1000, Avg=493.67, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15276 with return arg 4 and my parent is 15263
+Process 15276 (return arg 4): Max=1000, Avg=469.87, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15278 with return arg 3 and my parent is 15265
+Process 15278 (return arg 3): Max=1000, Avg=469.87, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15285 with return arg 6 and my parent is 15270
+Hi I'm process 15285 with return arg 6, I found the hidden key -56 in position 15090
+Process 15285 (return arg 6): Max=1000, Avg=508.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15281 with return arg 5 and my parent is 15267
+Hi I'm process 15281 with return arg 5, I found the hidden key -45 in position 10036
+Hi I'm process 15281 with return arg 5, I found the hidden key -63 in position 10041
+Hi I'm process 15281 with return arg 5, I found the hidden key -17 in position 10060
+Hi I'm process 15281 with return arg 5, I found the hidden key -32 in position 10308
+Process 15281 (return arg 5): Max=999, Avg=492.92, HiddenKeys=4
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15312 with return arg 6 and my parent is 15266
+Hi I'm process 15312 with return arg 6, I found the hidden key -5 in position 3018
+Process 15312 (return arg 6): Max=995, Avg=494.60, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15272 with return arg 3 and my parent is 15260
+Hi I'm process 15272 with return arg 3, I found the hidden key -74 in position 73
+Hi I'm process 15272 with return arg 3, I found the hidden key -43 in position 268
+Process 15272 (return arg 3): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15327 with return arg 5 and my parent is 15259
+Hi I'm process 15327 with return arg 5, I found the hidden key -9 in position 10345
+Hi I'm process 15327 with return arg 5, I found the hidden key -22 in position 10606
+Process 15327 (return arg 5): Max=997, Avg=523.21, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15289 with return arg 5 and my parent is 15269
+Hi I'm process 15289 with return arg 5, I found the hidden key -76 in position 6445
+Hi I'm process 15289 with return arg 5, I found the hidden key -51 in position 6542
+Process 15289 (return arg 5): Max=1000, Avg=512.05, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15296 with return arg 3 and my parent is 15257
+Hi I'm process 15296 with return arg 3, I found the hidden key -52 in position 348
+Hi I'm process 15296 with return arg 3, I found the hidden key -25 in position 401
+Process 15296 (return arg 3): Max=1000, Avg=538.40, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15297 with return arg 7 and my parent is 15270
+Process 15297 (return arg 7): Max=1000, Avg=509.69, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15287 with return arg 5 and my parent is 15263
+Process 15287 (return arg 5): Max=998, Avg=493.17, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15294 with return arg 6 and my parent is 15267
+Hi I'm process 15294 with return arg 6, I found the hidden key -9 in position 10345
+Hi I'm process 15294 with return arg 6, I found the hidden key -22 in position 10606
+Process 15294 (return arg 6): Max=997, Avg=523.21, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15291 with return arg 4 and my parent is 15264
+Process 15291 (return arg 4): Max=999, Avg=495.68, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15292 with return arg 4 and my parent is 15265
+Process 15292 (return arg 4): Max=998, Avg=493.17, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15284 with return arg 4 and my parent is 15262
+Hi I'm process 15284 with return arg 4, I found the hidden key -54 in position 664
+Hi I'm process 15284 with return arg 4, I found the hidden key -30 in position 781
+Hi I'm process 15284 with return arg 4, I found the hidden key -59 in position 876
+Process 15284 (return arg 4): Max=997, Avg=510.96, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15283 with return arg 4 and my parent is 15260
+Hi I'm process 15283 with return arg 4, I found the hidden key -52 in position 348
+Hi I'm process 15283 with return arg 4, I found the hidden key -25 in position 401
+Process 15283 (return arg 4): Max=1000, Avg=538.40, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15295 with return arg 5 and my parent is 15266
+Hi I'm process 15295 with return arg 5, I found the hidden key -72 in position 2577
+Process 15295 (return arg 5): Max=992, Avg=493.27, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15344 with return arg 9 and my parent is 15301
+Hi I'm process 15344 with return arg 9, I found the hidden key -37 in position 18822
+Hi I'm process 15344 with return arg 9, I found the hidden key -19 in position 18995
+Process 15344 (return arg 9): Max=996, Avg=474.31, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15328 with return arg 8 and my parent is 15266
+Hi I'm process 15328 with return arg 8, I found the hidden key -40 in position 3521
+Process 15328 (return arg 8): Max=997, Avg=514.33, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15306 with return arg 5 and my parent is 15264
+Process 15306 (return arg 5): Max=997, Avg=526.54, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15302 with return arg 5 and my parent is 15260
+Hi I'm process 15302 with return arg 5, I found the hidden key -54 in position 664
+Hi I'm process 15302 with return arg 5, I found the hidden key -30 in position 781
+Hi I'm process 15302 with return arg 5, I found the hidden key -59 in position 876
+Process 15302 (return arg 5): Max=997, Avg=510.96, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15326 with return arg 7 and my parent is 15261
+Process 15326 (return arg 7): Max=1000, Avg=507.33, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15350 with return arg 8 and my parent is 15280
+Process 15350 (return arg 8): Max=996, Avg=485.08, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15352 with return arg 9 and my parent is 15273
+Hi I'm process 15352 with return arg 9, I found the hidden key -73 in position 4723
+Process 15352 (return arg 9): Max=999, Avg=489.28, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15345 with return arg 8 and my parent is 15273
+Hi I'm process 15345 with return arg 8, I found the hidden key -78 in position 4538
+Hi I'm process 15345 with return arg 8, I found the hidden key -20 in position 4596
+Hi I'm process 15345 with return arg 8, I found the hidden key -31 in position 4672
+Process 15345 (return arg 8): Max=1000, Avg=491.99, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15282 with return arg 2 and my parent is 15257
+Hi I'm process 15282 with return arg 2, I found the hidden key -74 in position 73
+Hi I'm process 15282 with return arg 2, I found the hidden key -43 in position 268
+Process 15282 (return arg 2): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15349 with return arg 8 and my parent is 15277
+Process 15349 (return arg 8): Max=991, Avg=486.91, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15330 with return arg 5 and my parent is 15279
+Process 15330 (return arg 5): Max=998, Avg=496.89, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15360 with return arg 11 and my parent is 15298
+Process 15360 (return arg 11): Max=993, Avg=519.89, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15303 with return arg 6 and my parent is 15263
+Hi I'm process 15303 with return arg 6, I found the hidden key -75 in position 2029
+Process 15303 (return arg 6): Max=1000, Avg=493.67, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15357 with return arg 7 and my parent is 15286
+Hi I'm process 15357 with return arg 7, I found the hidden key -24 in position 12595
+Process 15357 (return arg 7): Max=999, Avg=490.23, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15307 with return arg 3 and my parent is 15258
+Process 15307 (return arg 3): Max=999, Avg=495.68, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15313 with return arg 4 and my parent is 15271
+Hi I'm process 15313 with return arg 4, I found the hidden key -72 in position 2577
+Process 15313 (return arg 4): Max=992, Avg=493.27, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15365 with return arg 6 and my parent is 15269
+Hi I'm process 15365 with return arg 6, I found the hidden key -34 in position 6573
+Hi I'm process 15365 with return arg 6, I found the hidden key -16 in position 6625
+Process 15365 (return arg 6): Max=1000, Avg=494.75, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15338 with return arg 7 and my parent is 15273
+Process 15338 (return arg 7): Max=995, Avg=511.35, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15359 with return arg 9 and my parent is 15280
+Hi I'm process 15359 with return arg 9, I found the hidden key -64 in position 8517
+Process 15359 (return arg 9): Max=999, Avg=520.07, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15341 with return arg 8 and my parent is 15298
+Hi I'm process 15341 with return arg 8, I found the hidden key -61 in position 13804
+Hi I'm process 15341 with return arg 8, I found the hidden key -47 in position 13904
+Hi I'm process 15341 with return arg 8, I found the hidden key -38 in position 13908
+Hi I'm process 15341 with return arg 8, I found the hidden key -58 in position 13993
+Hi I'm process 15341 with return arg 8, I found the hidden key -44 in position 14039
+Process 15341 (return arg 8): Max=1000, Avg=483.76, HiddenKeys=5
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15351 with return arg 10 and my parent is 15301
+Process 15351 (return arg 10): Max=999, Avg=537.07, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15300 with return arg 5 and my parent is 15262
+Hi I'm process 15300 with return arg 5, I found the hidden key -48 in position 1164
+Hi I'm process 15300 with return arg 5, I found the hidden key -53 in position 1183
+Process 15300 (return arg 5): Max=996, Avg=478.50, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15364 with return arg 12 and my parent is 15301
+Process 15364 (return arg 12): Max=994, Avg=480.63, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15347 with return arg 9 and my parent is 15298
+Hi I'm process 15347 with return arg 9, I found the hidden key -29 in position 14127
+Hi I'm process 15347 with return arg 9, I found the hidden key -35 in position 14181
+Process 15347 (return arg 9): Max=992, Avg=502.16, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15362 with return arg 10 and my parent is 15277
+Hi I'm process 15362 with return arg 10, I found the hidden key -77 in position 17340
+Process 15362 (return arg 10): Max=991, Avg=509.60, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15358 with return arg 11 and my parent is 15301
+Hi I'm process 15358 with return arg 11, I found the hidden key -62 in position 19393
+Hi I'm process 15358 with return arg 11, I found the hidden key -12 in position 19616
+Hi I'm process 15358 with return arg 11, I found the hidden key -33 in position 19684
+Process 15358 (return arg 11): Max=991, Avg=500.93, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15329 with return arg 5 and my parent is 15271
+Hi I'm process 15329 with return arg 5, I found the hidden key -5 in position 3018
+Process 15329 (return arg 5): Max=995, Avg=494.60, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15366 with return arg 9 and my parent is 15274
+Process 15366 (return arg 9): Max=994, Avg=491.28, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15340 with return arg 7 and my parent is 15279
+Hi I'm process 15340 with return arg 7, I found the hidden key -78 in position 4538
+Hi I'm process 15340 with return arg 7, I found the hidden key -20 in position 4596
+Hi I'm process 15340 with return arg 7, I found the hidden key -31 in position 4672
+Process 15340 (return arg 7): Max=1000, Avg=491.99, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15332 with return arg 8 and my parent is 15261
+Hi I'm process 15332 with return arg 8, I found the hidden key -65 in position 16132
+Process 15332 (return arg 8): Max=998, Avg=518.48, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15346 with return arg 8 and my parent is 15279
+Hi I'm process 15346 with return arg 8, I found the hidden key -73 in position 4723
+Process 15346 (return arg 8): Max=999, Avg=489.28, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15343 with return arg 7 and my parent is 15280
+Hi I'm process 15343 with return arg 7, I found the hidden key -55 in position 8118
+Process 15343 (return arg 7): Max=998, Avg=521.18, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15367 with return arg 9 and my parent is 15286
+Hi I'm process 15367 with return arg 9, I found the hidden key -36 in position 13284
+Process 15367 (return arg 9): Max=998, Avg=530.19, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15354 with return arg 10 and my parent is 15298
+Hi I'm process 15354 with return arg 10, I found the hidden key -11 in position 14387
+Hi I'm process 15354 with return arg 10, I found the hidden key -23 in position 14549
+Hi I'm process 15354 with return arg 10, I found the hidden key -6 in position 14597
+Process 15354 (return arg 10): Max=995, Avg=469.08, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15301 with return arg 8 and my parent is 15261
+Hi I'm process 15301 with return arg 8, I found the hidden key -37 in position 18822
+Hi I'm process 15301 with return arg 8, I found the hidden key -19 in position 18995
+Process 15301 (return arg 8): Max=996, Avg=474.31, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15353 with return arg 7 and my parent is 15271
+Hi I'm process 15353 with return arg 7, I found the hidden key -40 in position 3521
+Process 15353 (return arg 7): Max=997, Avg=514.33, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15355 with return arg 7 and my parent is 15274
+Hi I'm process 15355 with return arg 7, I found the hidden key -70 in position 11579
+Hi I'm process 15355 with return arg 7, I found the hidden key -69 in position 11706
+Process 15355 (return arg 7): Max=995, Avg=517.24, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15361 with return arg 8 and my parent is 15286
+Hi I'm process 15361 with return arg 8, I found the hidden key -68 in position 12966
+Hi I'm process 15361 with return arg 8, I found the hidden key -18 in position 13068
+Process 15361 (return arg 8): Max=999, Avg=491.64, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15368 with return arg 7 and my parent is 15293
+Hi I'm process 15368 with return arg 7, I found the hidden key -13 in position 9046
+Process 15368 (return arg 7): Max=997, Avg=489.92, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15262 with return arg 1 and my parent is 15256
+Hi I'm process 15262 with return arg 1, I found the hidden key -74 in position 73
+Hi I'm process 15262 with return arg 1, I found the hidden key -43 in position 268
+Process 15262 (return arg 1): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15305 with return arg 7 and my parent is 15267
+Hi I'm process 15305 with return arg 7, I found the hidden key -3 in position 10819
+Hi I'm process 15305 with return arg 7, I found the hidden key -66 in position 10839
+Process 15305 (return arg 7): Max=997, Avg=506.28, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15369 with return arg 8 and my parent is 15290
+Process 15369 (return arg 8): Max=1000, Avg=493.48, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15331 with return arg 7 and my parent is 15264
+Hi I'm process 15331 with return arg 7, I found the hidden key -10 in position 6013
+Process 15331 (return arg 7): Max=994, Avg=486.44, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15298 with return arg 7 and my parent is 15259
+Hi I'm process 15298 with return arg 7, I found the hidden key -61 in position 13804
+Hi I'm process 15298 with return arg 7, I found the hidden key -47 in position 13904
+Hi I'm process 15298 with return arg 7, I found the hidden key -38 in position 13908
+Hi I'm process 15298 with return arg 7, I found the hidden key -58 in position 13993
+Hi I'm process 15298 with return arg 7, I found the hidden key -44 in position 14039
+Process 15298 (return arg 7): Max=1000, Avg=483.76, HiddenKeys=5
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15342 with return arg 7 and my parent is 15277
+Hi I'm process 15342 with return arg 7, I found the hidden key -26 in position 16369
+Process 15342 (return arg 7): Max=999, Avg=510.29, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15333 with return arg 6 and my parent is 15259
+Hi I'm process 15333 with return arg 6, I found the hidden key -3 in position 10819
+Hi I'm process 15333 with return arg 6, I found the hidden key -66 in position 10839
+Process 15333 (return arg 6): Max=997, Avg=506.28, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15372 with return arg 9 and my parent is 15290
+Hi I'm process 15372 with return arg 9, I found the hidden key -41 in position 17951
+Hi I'm process 15372 with return arg 9, I found the hidden key -14 in position 18044
+Process 15372 (return arg 9): Max=1000, Avg=486.72, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15308 with return arg 5 and my parent is 15261
+Hi I'm process 15308 with return arg 5, I found the hidden key -56 in position 15090
+Process 15308 (return arg 5): Max=1000, Avg=508.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15314 with return arg 7 and my parent is 15263
+Process 15314 (return arg 7): Max=997, Avg=500.43, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15334 with return arg 6 and my parent is 15273
+Process 15334 (return arg 6): Max=998, Avg=496.89, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15376 with return arg 9 and my parent is 15293
+Process 15376 (return arg 9): Max=998, Avg=497.27, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15363 with return arg 8 and my parent is 15274
+Hi I'm process 15363 with return arg 8, I found the hidden key -2 in position 11944
+Hi I'm process 15363 with return arg 8, I found the hidden key -50 in position 12105
+Hi I'm process 15363 with return arg 8, I found the hidden key -8 in position 12152
+Process 15363 (return arg 8): Max=994, Avg=459.98, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15377 with return arg 11 and my parent is 15290
+Hi I'm process 15377 with return arg 11, I found the hidden key -39 in position 18597
+Process 15377 (return arg 11): Max=996, Avg=531.85, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15324 with return arg 5 and my parent is 15257
+Hi I'm process 15324 with return arg 5, I found the hidden key -48 in position 1164
+Hi I'm process 15324 with return arg 5, I found the hidden key -53 in position 1183
+Process 15324 (return arg 5): Max=996, Avg=478.50, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15379 with return arg 5 and my parent is 15258
+Hi I'm process 15379 with return arg 5, I found the hidden key -80 in position 5935
+Process 15379 (return arg 5): Max=996, Avg=489.82, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15356 with return arg 9 and my parent is 15277
+Process 15356 (return arg 9): Max=996, Avg=479.24, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15317 with return arg 4 and my parent is 15258
+Process 15317 (return arg 4): Max=997, Avg=526.54, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15310 with return arg 3 and my parent is 15256
+Hi I'm process 15310 with return arg 3, I found the hidden key -54 in position 664
+Hi I'm process 15310 with return arg 3, I found the hidden key -30 in position 781
+Hi I'm process 15310 with return arg 3, I found the hidden key -59 in position 876
+Process 15310 (return arg 3): Max=997, Avg=510.96, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15315 with return arg 6 and my parent is 15265
+Process 15315 (return arg 6): Max=997, Avg=500.43, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15318 with return arg 4 and my parent is 15259
+Hi I'm process 15318 with return arg 4, I found the hidden key -45 in position 10036
+Hi I'm process 15318 with return arg 4, I found the hidden key -63 in position 10041
+Hi I'm process 15318 with return arg 4, I found the hidden key -17 in position 10060
+Hi I'm process 15318 with return arg 4, I found the hidden key -32 in position 10308
+Process 15318 (return arg 4): Max=999, Avg=492.92, HiddenKeys=4
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15348 with return arg 6 and my parent is 15274
+Process 15348 (return arg 6): Max=998, Avg=494.41, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15320 with return arg 6 and my parent is 15261
+Process 15320 (return arg 6): Max=1000, Avg=509.69, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15316 with return arg 8 and my parent is 15267
+Hi I'm process 15316 with return arg 8, I found the hidden key -71 in position 11095
+Hi I'm process 15316 with return arg 8, I found the hidden key -1 in position 11128
+Process 15316 (return arg 8): Max=999, Avg=501.06, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15309 with return arg 8 and my parent is 15270
+Process 15309 (return arg 8): Max=1000, Avg=507.33, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15273 with return arg 5 and my parent is 15257
+Process 15273 (return arg 5): Max=998, Avg=496.89, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15311 with return arg 4 and my parent is 15257
+Hi I'm process 15311 with return arg 4, I found the hidden key -54 in position 664
+Hi I'm process 15311 with return arg 4, I found the hidden key -30 in position 781
+Hi I'm process 15311 with return arg 4, I found the hidden key -59 in position 876
+Process 15311 (return arg 4): Max=997, Avg=510.96, HiddenKeys=3
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15263 with return arg 3 and my parent is 15257
+Process 15263 (return arg 3): Max=1000, Avg=469.87, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15370 with return arg 10 and my parent is 15286
+Hi I'm process 15370 with return arg 10, I found the hidden key -60 in position 13616
+Process 15370 (return arg 10): Max=999, Avg=500.54, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15321 with return arg 6 and my parent is 15260
+Hi I'm process 15321 with return arg 6, I found the hidden key -48 in position 1164
+Hi I'm process 15321 with return arg 6, I found the hidden key -53 in position 1183
+Process 15321 (return arg 6): Max=996, Avg=478.50, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15323 with return arg 9 and my parent is 15270
+Hi I'm process 15323 with return arg 9, I found the hidden key -65 in position 16132
+Process 15323 (return arg 9): Max=998, Avg=518.48, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15380 with return arg 6 and my parent is 15258
+Hi I'm process 15380 with return arg 6, I found the hidden key -10 in position 6013
+Process 15380 (return arg 6): Max=994, Avg=486.44, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15274 with return arg 5 and my parent is 15259
+Process 15274 (return arg 5): Max=998, Avg=494.41, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15319 with return arg 6 and my parent is 15264
+Hi I'm process 15319 with return arg 6, I found the hidden key -80 in position 5935
+Process 15319 (return arg 6): Max=996, Avg=489.82, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15322 with return arg 4 and my parent is 15256
+Hi I'm process 15322 with return arg 4, I found the hidden key -48 in position 1164
+Hi I'm process 15322 with return arg 4, I found the hidden key -53 in position 1183
+Process 15322 (return arg 4): Max=996, Avg=478.50, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15265 with return arg 2 and my parent is 15256
+Process 15265 (return arg 2): Max=1000, Avg=469.87, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15373 with return arg 8 and my parent is 15293
+Hi I'm process 15373 with return arg 8, I found the hidden key -15 in position 9213
+Process 15373 (return arg 8): Max=1000, Avg=498.04, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15378 with return arg 10 and my parent is 15293
+Hi I'm process 15378 with return arg 10, I found the hidden key -46 in position 9692
+Hi I'm process 15378 with return arg 10, I found the hidden key -4 in position 9715
+Hi I'm process 15378 with return arg 10, I found the hidden key -28 in position 9734
+Hi I'm process 15378 with return arg 10, I found the hidden key -27 in position 9744
+Hi I'm process 15378 with return arg 10, I found the hidden key -7 in position 9922
+Hi I'm process 15378 with return arg 10, I found the hidden key -21 in position 9949
+Process 15378 (return arg 10): Max=1000, Avg=510.27, HiddenKeys=6
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15325 with return arg 7 and my parent is 15266
+Hi I'm process 15325 with return arg 7, I found the hidden key -57 in position 3374
+Process 15325 (return arg 7): Max=1000, Avg=498.14, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15374 with return arg 8 and my parent is 15269
+Process 15374 (return arg 8): Max=990, Avg=491.90, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15286 with return arg 6 and my parent is 15259
+Hi I'm process 15286 with return arg 6, I found the hidden key -24 in position 12595
+Process 15286 (return arg 6): Max=999, Avg=490.23, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15339 with return arg 6 and my parent is 15271
+Hi I'm process 15339 with return arg 6, I found the hidden key -57 in position 3374
+Process 15339 (return arg 6): Max=1000, Avg=498.14, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15277 with return arg 6 and my parent is 15261
+Hi I'm process 15277 with return arg 6, I found the hidden key -26 in position 16369
+Process 15277 (return arg 6): Max=999, Avg=510.29, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15260 with return arg 2 and my parent is 15257
+Hi I'm process 15260 with return arg 2, I found the hidden key -74 in position 73
+Hi I'm process 15260 with return arg 2, I found the hidden key -43 in position 268
+Process 15260 (return arg 2): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15270 with return arg 5 and my parent is 15261
+Hi I'm process 15270 with return arg 5, I found the hidden key -56 in position 15090
+Process 15270 (return arg 5): Max=1000, Avg=508.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15371 with return arg 7 and my parent is 15269
+Hi I'm process 15371 with return arg 7, I found the hidden key -67 in position 6982
+Hi I'm process 15371 with return arg 7, I found the hidden key -49 in position 7096
+Process 15371 (return arg 7): Max=998, Avg=495.56, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15264 with return arg 3 and my parent is 15258
+Process 15264 (return arg 3): Max=999, Avg=495.68, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15293 with return arg 6 and my parent is 15258
+Hi I'm process 15293 with return arg 6, I found the hidden key -13 in position 9046
+Process 15293 (return arg 6): Max=997, Avg=489.92, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15271 with return arg 3 and my parent is 15256
+Hi I'm process 15271 with return arg 3, I found the hidden key -72 in position 2577
+Process 15271 (return arg 3): Max=992, Avg=493.27, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15375 with return arg 10 and my parent is 15290
+Hi I'm process 15375 with return arg 10, I found the hidden key -42 in position 18251
+Process 15375 (return arg 10): Max=998, Avg=495.06, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15269 with return arg 4 and my parent is 15258
+Hi I'm process 15269 with return arg 4, I found the hidden key -76 in position 6445
+Hi I'm process 15269 with return arg 4, I found the hidden key -51 in position 6542
+Process 15269 (return arg 4): Max=1000, Avg=512.05, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15336 with return arg 6 and my parent is 15280
+Hi I'm process 15336 with return arg 6, I found the hidden key -79 in position 7672
+Process 15336 (return arg 6): Max=999, Avg=493.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15267 with return arg 4 and my parent is 15259
+Hi I'm process 15267 with return arg 4, I found the hidden key -45 in position 10036
+Hi I'm process 15267 with return arg 4, I found the hidden key -63 in position 10041
+Hi I'm process 15267 with return arg 4, I found the hidden key -17 in position 10060
+Hi I'm process 15267 with return arg 4, I found the hidden key -32 in position 10308
+Process 15267 (return arg 4): Max=999, Avg=492.92, HiddenKeys=4
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15290 with return arg 7 and my parent is 15261
+Process 15290 (return arg 7): Max=1000, Avg=493.48, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15266 with return arg 4 and my parent is 15257
+Hi I'm process 15266 with return arg 4, I found the hidden key -72 in position 2577
+Process 15266 (return arg 4): Max=992, Avg=493.27, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15337 with return arg 7 and my parent is 15259
+Hi I'm process 15337 with return arg 7, I found the hidden key -71 in position 11095
+Hi I'm process 15337 with return arg 7, I found the hidden key -1 in position 11128
+Process 15337 (return arg 7): Max=999, Avg=501.06, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15261 with return arg 4 and my parent is 15256
+Hi I'm process 15261 with return arg 4, I found the hidden key -56 in position 15090
+Process 15261 (return arg 4): Max=1000, Avg=508.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15280 with return arg 5 and my parent is 15258
+Hi I'm process 15280 with return arg 5, I found the hidden key -79 in position 7672
+Process 15280 (return arg 5): Max=999, Avg=493.17, HiddenKeys=1
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15257 with return arg 1 and my parent is 15256
+Hi I'm process 15257 with return arg 1, I found the hidden key -74 in position 73
+Hi I'm process 15257 with return arg 1, I found the hidden key -43 in position 268
+Process 15257 (return arg 1): Max=986, Avg=490.74, HiddenKeys=2
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15259 with return arg 3 and my parent is 15256
+Hi I'm process 15259 with return arg 3, I found the hidden key -45 in position 10036
+Hi I'm process 15259 with return arg 3, I found the hidden key -63 in position 10041
+Hi I'm process 15259 with return arg 3, I found the hidden key -17 in position 10060
+Hi I'm process 15259 with return arg 3, I found the hidden key -32 in position 10308
+Process 15259 (return arg 3): Max=999, Avg=492.92, HiddenKeys=4
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15335 with return arg 6 and my parent is 15279
+Process 15335 (return arg 6): Max=995, Avg=511.35, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15258 with return arg 2 and my parent is 15256
+Process 15258 (return arg 2): Max=999, Avg=495.68, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15279 with return arg 4 and my parent is 15256
+Process 15279 (return arg 4): Max=998, Avg=496.89, HiddenKeys=0
+Successfully generated input.txt with 20000 total integers and 80 negative integers
+Executing BFS process tree with fanout 4...
+Hi I'm process 15256 with return arg 0 and my parent is 9107
+Hi I'm process 15256 with return arg 0, I found the hidden key -74 in position 73
+Hi I'm process 15256 with return arg 0, I found the hidden key -43 in position 268
+Process 15256 (return arg 0): Max=986, Avg=490.74, HiddenKeys=2
+For a list of 20000 numbers, the search took 0.004643 seconds.

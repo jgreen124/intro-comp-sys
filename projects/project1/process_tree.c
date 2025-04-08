@@ -5,20 +5,45 @@
 #include "process_tree.h"
 
 typedef struct {
-    pid_t pid;
-    int pipefd[2]; // pipefd[1] = write end (parent), pipefd[0] = read end (child)
-} ChildInfo;
+    int start;
+    int end;
+    int H;
+    int return_arg;
+} WorkUnit;
 
-void create_bfs_process_tree(int PN, int fanout) {
-    pid_t root_pid = getpid(); // Save original parent PID
-    ChildInfo *children = malloc(sizeof(ChildInfo) * PN);
-    int child_count = 0;
+void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int return_arg, int fanout) {
+    pid_t my_pid = getpid();
+    pid_t my_ppid = getppid();
 
-    for (int i = 0; i < PN; i++) {
-        if (getpid() != root_pid) break; // Only root process forks
+    if (*pn_left <= 1 || (end - start + 1) <= 1000 || fanout < 2) {
+        printf("Hi I'm process %d with return arg %d and my parent is %d\n", my_pid, return_arg, my_ppid);
+        int hidden_count = 0, max = data[start], sum = 0;
 
-        // Create pipe for communication with child
-        if (pipe(children[i].pipefd) == -1) {
+        for (int i = start; i <= end; i++) {
+            if (data[i] < 0 && data[i] >= -80) {
+                printf("Hi I'm process %d with return arg %d, I found the hidden key %d in position %d\n",
+                       my_pid, return_arg, data[i], i);
+                hidden_count++;
+            }
+            if (data[i] > max) max = data[i];
+            sum += data[i];
+        }
+
+        double avg = (double)sum / (end - start + 1);
+        printf("Process %d (return arg %d): Max=%d, Avg=%.2f, HiddenKeys=%d\n",
+               my_pid, return_arg, max, avg, hidden_count);
+        return;
+    }
+
+    int total_length = end - start + 1;
+    int chunk_size = total_length / fanout;
+
+    for (int i = 0; i < fanout && *pn_left > 1; i++) {
+        int chunk_start = start + i * chunk_size;
+        int chunk_end = (i == fanout - 1) ? end : chunk_start + chunk_size - 1;
+
+        int pipefd[2];
+        if (pipe(pipefd) == -1) {
             perror("pipe");
             exit(EXIT_FAILURE);
         }
@@ -27,42 +52,43 @@ void create_bfs_process_tree(int PN, int fanout) {
         if (pid < 0) {
             perror("fork");
             exit(EXIT_FAILURE);
-        } else if (pid == 0) {
-            // CHILD PROCESS
-            close(children[i].pipefd[1]); // Close write end
-            printf("Hi I'm process %d (child %d of %d)\n", getpid(), i, getppid());
-
-            // Simulate reading work from parent
-            char buf[64];
-            read(children[i].pipefd[0], buf, sizeof(buf));
-            printf("Process %d received message: %s\n", getpid(), buf);
-
-            close(children[i].pipefd[0]);
-            sleep(3); // simulate work
-            exit(i);  // return unique exit code
-        } else {
-            // PARENT
-            children[i].pid = pid;
-            close(children[i].pipefd[0]); // Close read end in parent
-
-            char msg[64];
-            snprintf(msg, sizeof(msg), "Hello child %d from parent %d", i, getpid());
-            write(children[i].pipefd[1], msg, sizeof(msg));
-            close(children[i].pipefd[1]);
         }
 
-        child_count++;
+        (*pn_left)--;
+
+        if (pid == 0) {
+            // Child
+            close(pipefd[1]);
+            WorkUnit w;
+            read(pipefd[0], &w, sizeof(WorkUnit));
+            close(pipefd[0]);
+
+            execute_bfs_node(data, w.start, w.end, w.H, pn_left, w.return_arg, fanout);
+            exit(w.return_arg);
+        } else {
+            // Parent
+            close(pipefd[0]);
+            WorkUnit w = {
+                .start = chunk_start,
+                .end = chunk_end,
+                .H = H,
+                .return_arg = return_arg + i + 1
+            };
+            write(pipefd[1], &w, sizeof(WorkUnit));
+            close(pipefd[1]);
+        }
     }
+
+    // Parent also handles its own chunk (first one)
+    int parent_start = start;
+    int parent_end = start + chunk_size - 1;
+    if (fanout == 1) parent_end = end;  // Safety for bad values
+
+    execute_bfs_node(data, parent_start, parent_end, H, pn_left, return_arg, fanout);
 
     // Wait for all children
-    if (getpid() == root_pid) {
-        for (int i = 0; i < child_count; i++) {
-            int status;
-            pid_t ended = wait(&status);
-            printf("Parent %d: child %d exited with status %d\n",
-                   getpid(), ended, WEXITSTATUS(status));
-        }
+    for (int i = 0; i < fanout && *pn_left + i < 9999; i++) {
+        int status;
+        wait(&status);
     }
-
-    free(children);
 }
