@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <time.h>
 #include "process_tree.h"
 
 typedef struct {
@@ -15,6 +16,7 @@ void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int re
     pid_t my_pid = getpid();
     pid_t my_ppid = getppid();
 
+    // Base case: no more forks or chunk small enough
     if (*pn_left <= 1 || (end - start + 1) <= 1000 || fanout < 2) {
         printf("Hi I'm process %d with return arg %d and my parent is %d\n", my_pid, return_arg, my_ppid);
         int hidden_count = 0, max = data[start], sum = 0;
@@ -32,9 +34,12 @@ void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int re
         double avg = (double)sum / (end - start + 1);
         printf("Process %d (return arg %d): Max=%d, Avg=%.2f, HiddenKeys=%d\n",
                my_pid, return_arg, max, avg, hidden_count);
+
+        usleep(200000); // Sleep for 0.2 seconds (200,000 microseconds)
         return;
     }
 
+    // Split the array into fanout-sized chunks
     int total_length = end - start + 1;
     int chunk_size = total_length / fanout;
 
@@ -79,12 +84,31 @@ void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int re
         }
     }
 
-    // Parent also handles its own chunk (first one)
+    // Parent handles its own chunk
     int parent_start = start;
     int parent_end = start + chunk_size - 1;
-    if (fanout == 1) parent_end = end;  // Safety for bad values
+    if (fanout == 1) parent_end = end;
 
     execute_bfs_node(data, parent_start, parent_end, H, pn_left, return_arg, fanout);
+
+    // Print pstree before waiting, while all children are still alive
+    if (return_arg == 0) {
+        pid_t pstree_pid = fork();
+        if (pstree_pid == 0) {
+            // Child: run pstree and print to terminal
+            printf("\n--- Process Tree Snapshot (pstree) ---\n");
+            char pid_arg[16];
+            snprintf(pid_arg, sizeof(pid_arg), "%d", getpid());
+            execlp("pstree", "pstree", "-p", pid_arg, NULL);
+            perror("execlp failed");
+            exit(1);
+        } else {
+            // Parent: give pstree a moment to run
+            usleep(500000); // 0.5 seconds
+        }
+    }
+    
+    
 
     // Wait for all children
     for (int i = 0; i < fanout && *pn_left + i < 9999; i++) {
