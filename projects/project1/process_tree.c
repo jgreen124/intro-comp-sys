@@ -35,7 +35,7 @@ void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int re
         printf("Process %d (return arg %d): Max=%d, Avg=%.2f, HiddenKeys=%d\n",
                my_pid, return_arg, max, avg, hidden_count);
 
-        usleep(200000); // Sleep for 0.2 seconds (200,000 microseconds)
+        usleep(200000); // Sleep for 0.2 seconds
         return;
     }
 
@@ -90,25 +90,6 @@ void execute_bfs_node(int *data, int start, int end, int H, int *pn_left, int re
     if (fanout == 1) parent_end = end;
 
     execute_bfs_node(data, parent_start, parent_end, H, pn_left, return_arg, fanout);
-
-    // Print pstree before waiting, while all children are still alive
-    if (return_arg == 0) {
-        pid_t pstree_pid = fork();
-        if (pstree_pid == 0) {
-            // Child: run pstree and print to terminal
-            printf("\n--- Process Tree Snapshot (pstree) ---\n");
-            char pid_arg[16];
-            snprintf(pid_arg, sizeof(pid_arg), "%d", getpid());
-            execlp("pstree", "pstree", "-p", pid_arg, NULL);
-            perror("execlp failed");
-            exit(1);
-        } else {
-            // Parent: give pstree a moment to run
-            usleep(500000); // 0.5 seconds
-        }
-    }
-    
-    
 
     // Wait for all children
     for (int i = 0; i < fanout && *pn_left + i < 9999; i++) {

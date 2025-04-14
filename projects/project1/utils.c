@@ -10,6 +10,7 @@
 #include "utils.h"
 
 
+// Shuffle array contents
 static void shuffle(int *arr, int n) {
     for (int i = n - 1; i > 0; i--) {
         int j = rand() % (i + 1);
@@ -19,17 +20,21 @@ static void shuffle(int *arr, int n) {
     }
 }
 
+// Create text file
 void generate_input_file(const char *filename, int L, int H) {
+    // Check if we have at least 20000 integers
     if (L < 20000) {
         fprintf(stderr, "Error: L must be at least 20,000.\n");
         exit(EXIT_FAILURE);
     }
 
+    // Check we have between 40 and 80 hidden keys (negative integers)
     if (H < 40 || H > 80) {
         fprintf(stderr, "Error: H must be between 40 and 80.\n");
         exit(EXIT_FAILURE);
     }
 
+    // Open file for writing and return error if file doesn't exist
     FILE *fp = fopen(filename, "w");
     if (!fp) {
         perror("fopen");
@@ -38,16 +43,18 @@ void generate_input_file(const char *filename, int L, int H) {
 
     srand(time(NULL));
 
+    // File will contain L - H postive ints
     int total_positive = L - H;
 
     // Select and shuffle H unique negative integers from -1 to -80
-    int all_negatives[80];
-    for (int i = 0; i < 80; i++) all_negatives[i] = -(i + 1);
-    shuffle(all_negatives, 80);
+    int negative_ints[80];
+    for (int i = 0; i < H; i++) negative_ints[i] = -(rand() % 80 + 1);
+    shuffle(negative_ints, 80);
 
+    // Allocate space for hidden keys
     int *hidden_keys = malloc(sizeof(int) * H);
-    for (int i = 0; i < H; i++) hidden_keys[i] = all_negatives[i];
-    shuffle(hidden_keys, H); // Optional: extra shuffle for placement randomness
+    for (int i = 0; i < H; i++) hidden_keys[i] = negative_ints[i];
+    shuffle(hidden_keys, H);
 
     // Generate H unique positions for hidden keys
     int *positions = malloc(sizeof(int) * H);
@@ -85,6 +92,7 @@ void generate_input_file(const char *filename, int L, int H) {
         }
     }
 
+    // Close file and release memory
     fclose(fp);
     free(hidden_keys);
     free(positions);
@@ -93,21 +101,24 @@ void generate_input_file(const char *filename, int L, int H) {
 }
 
 
+// Read integers from file into an array
 int *read_file(const char *filename, int size) {
+    // Open file
     FILE *fp = fopen(filename, "r");
     if (!fp) {
         perror("fopen");
         exit(EXIT_FAILURE);
     }
 
+    // Allocate memory for array
     int *array = malloc(sizeof(int) * size);
-    
     if (!array) {
         perror("malloc");
         fclose(fp);
         exit(EXIT_FAILURE);
     }
 
+    // Read ints from file
     for (int i = 0; i < size; i++) {
         if (fscanf(fp, "%d", &array[i]) != 1) {
             fprintf(stderr, "Error reading file at integer number %d\n", i);
@@ -117,6 +128,7 @@ int *read_file(const char *filename, int size) {
         }
     }
 
+    // Close file and return array
     fclose(fp);
     return array;
 }
