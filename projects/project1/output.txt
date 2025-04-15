@@ -1,396 +1,302 @@
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27073 analyzing range [10000, 10624]
-Hi I'm process 27073 with return arg 6 and my parent is 27066
-Hi I'm process 27073 with return arg 6, I found the hidden key -16 in position 10110
-Hi I'm process 27073 with return arg 6, I found the hidden key -14 in position 10208
-Hi I'm process 27073 with return arg 6, I found the hidden key -1 in position 10304
-Hi I'm process 27073 with return arg 6, I found the hidden key -48 in position 10396
-Process 27073 (return arg 6): Max=1000, Avg=491.37, HiddenKeys=4
+Hi I'm process 50249 with return arg 5 and my parent is 50248
+Hi I'm process 50249 with return arg 5, I found the hidden key -63 in position 48
+Hi I'm process 50249 with return arg 5, I found the hidden key -8 in position 51
+Hi I'm process 50249 with return arg 5, I found the hidden key -5 in position 478
+Hi I'm process 50249 with return arg 5, I found the hidden key -44 in position 516
+Process 50249 (return arg 5): Max=1000, Avg=513.39, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27081 analyzing range [2500, 3124]
-Hi I'm process 27081 with return arg 6 and my parent is 27068
-Process 27081 (return arg 6): Max=999, Avg=497.39, HiddenKeys=0
+Hi I'm process 50250 with return arg 6 and my parent is 50248
+Hi I'm process 50250 with return arg 6, I found the hidden key -75 in position 907
+Process 50250 (return arg 6): Max=999, Avg=518.13, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27086 analyzing range [10625, 11249]
-Hi I'm process 27086 with return arg 7 and my parent is 27066
-Hi I'm process 27086 with return arg 7, I found the hidden key -19 in position 10714
-Hi I'm process 27086 with return arg 7, I found the hidden key -68 in position 10804
-Hi I'm process 27086 with return arg 7, I found the hidden key -69 in position 11018
-Hi I'm process 27086 with return arg 7, I found the hidden key -59 in position 11107
-Process 27086 (return arg 7): Max=997, Avg=485.69, HiddenKeys=4
+Aggregated (pid 50248): Max=822, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27089 analyzing range [3125, 3749]
-Hi I'm process 27089 with return arg 7 and my parent is 27068
-Hi I'm process 27089 with return arg 7, I found the hidden key -64 in position 3372
-Hi I'm process 27089 with return arg 7, I found the hidden key -34 in position 3605
-Hi I'm process 27089 with return arg 7, I found the hidden key -28 in position 3724
-Process 27089 (return arg 7): Max=999, Avg=476.71, HiddenKeys=3
+Hi I'm process 50252 with return arg 6 and my parent is 50251
+Hi I'm process 50252 with return arg 6, I found the hidden key -62 in position 1405
+Hi I'm process 50252 with return arg 6, I found the hidden key -17 in position 1494
+Hi I'm process 50252 with return arg 6, I found the hidden key -41 in position 1692
+Hi I'm process 50252 with return arg 6, I found the hidden key -33 in position 1719
+Process 50252 (return arg 6): Max=1000, Avg=501.11, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27085 analyzing range [5000, 5624]
-Hi I'm process 27085 with return arg 6 and my parent is 27072
-Hi I'm process 27085 with return arg 6, I found the hidden key -12 in position 5523
-Hi I'm process 27085 with return arg 6, I found the hidden key -46 in position 5558
-Process 27085 (return arg 6): Max=999, Avg=474.48, HiddenKeys=2
+Hi I'm process 50253 with return arg 7 and my parent is 50251
+Hi I'm process 50253 with return arg 7, I found the hidden key -66 in position 2003
+Hi I'm process 50253 with return arg 7, I found the hidden key -76 in position 2110
+Hi I'm process 50253 with return arg 7, I found the hidden key -14 in position 2321
+Hi I'm process 50253 with return arg 7, I found the hidden key -22 in position 2336
+Process 50253 (return arg 7): Max=1000, Avg=504.06, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27083 analyzing range [12500, 13124]
-Hi I'm process 27083 with return arg 7 and my parent is 27069
-Hi I'm process 27083 with return arg 7, I found the hidden key -6 in position 12976
-Process 27083 (return arg 7): Max=999, Avg=510.22, HiddenKeys=1
+Aggregated (pid 50251): Max=648, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27090 analyzing range [625, 1249]
-Hi I'm process 27090 with return arg 6 and my parent is 27067
-Hi I'm process 27090 with return arg 6, I found the hidden key -9 in position 754
-Process 27090 (return arg 6): Max=1000, Avg=493.78, HiddenKeys=1
+Aggregated (pid 50247): Max=822, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27092 analyzing range [17500, 18124]
-Hi I'm process 27092 with return arg 8 and my parent is 27078
-Hi I'm process 27092 with return arg 8, I found the hidden key -27 in position 17638
-Hi I'm process 27092 with return arg 8, I found the hidden key -48 in position 17711
-Hi I'm process 27092 with return arg 8, I found the hidden key -19 in position 17881
-Hi I'm process 27092 with return arg 8, I found the hidden key -57 in position 18073
-Process 27092 (return arg 8): Max=1000, Avg=487.55, HiddenKeys=4
+Hi I'm process 50256 with return arg 6 and my parent is 50255
+Hi I'm process 50256 with return arg 6, I found the hidden key -7 in position 2552
+Hi I'm process 50256 with return arg 6, I found the hidden key -31 in position 2721
+Process 50256 (return arg 6): Max=1000, Avg=495.05, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27097 analyzing range [5625, 6249]
-Hi I'm process 27097 with return arg 7 and my parent is 27072
-Hi I'm process 27097 with return arg 7, I found the hidden key -22 in position 5709
-Hi I'm process 27097 with return arg 7, I found the hidden key -30 in position 5771
-Hi I'm process 27097 with return arg 7, I found the hidden key -57 in position 6075
-Process 27097 (return arg 7): Max=998, Avg=505.51, HiddenKeys=3
+Hi I'm process 50257 with return arg 7 and my parent is 50255
+Hi I'm process 50257 with return arg 7, I found the hidden key -66 in position 3351
+Process 50257 (return arg 7): Max=996, Avg=482.39, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27088 analyzing range [7500, 8124]
-Hi I'm process 27088 with return arg 7 and my parent is 27071
-Hi I'm process 27088 with return arg 7, I found the hidden key -61 in position 8047
-Process 27088 (return arg 7): Max=1000, Avg=495.56, HiddenKeys=1
+Aggregated (pid 50255): Max=629, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27091 analyzing range [13125, 13749]
-Hi I'm process 27091 with return arg 8 and my parent is 27069
-Process 27091 (return arg 8): Max=999, Avg=496.66, HiddenKeys=0
+Hi I'm process 50259 with return arg 7 and my parent is 50258
+Hi I'm process 50259 with return arg 7, I found the hidden key -7 in position 3803
+Hi I'm process 50259 with return arg 7, I found the hidden key -1 in position 4009
+Process 50259 (return arg 7): Max=998, Avg=502.57, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27094 analyzing range [6250, 6874]
-Hi I'm process 27094 with return arg 7 and my parent is 27080
-Hi I'm process 27094 with return arg 7, I found the hidden key -16 in position 6320
-Hi I'm process 27094 with return arg 7, I found the hidden key -40 in position 6383
-Hi I'm process 27094 with return arg 7, I found the hidden key -9 in position 6502
-Hi I'm process 27094 with return arg 7, I found the hidden key -74 in position 6507
-Hi I'm process 27094 with return arg 7, I found the hidden key -48 in position 6554
-Hi I'm process 27094 with return arg 7, I found the hidden key -64 in position 6579
-Process 27094 (return arg 7): Max=998, Avg=512.84, HiddenKeys=6
+Hi I'm process 50260 with return arg 8 and my parent is 50258
+Hi I'm process 50260 with return arg 8, I found the hidden key -77 in position 4590
+Hi I'm process 50260 with return arg 8, I found the hidden key -4 in position 4889
+Process 50260 (return arg 8): Max=999, Avg=504.45, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27098 analyzing range [8125, 8749]
-Hi I'm process 27098 with return arg 8 and my parent is 27071
-Hi I'm process 27098 with return arg 8, I found the hidden key -73 in position 8310
-Hi I'm process 27098 with return arg 8, I found the hidden key -2 in position 8602
-Hi I'm process 27098 with return arg 8, I found the hidden key -52 in position 8657
-Process 27098 (return arg 8): Max=1000, Avg=509.49, HiddenKeys=3
+Aggregated (pid 50258): Max=982, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27102 analyzing range [18125, 18749]
-Hi I'm process 27102 with return arg 9 and my parent is 27078
-Hi I'm process 27102 with return arg 9, I found the hidden key -63 in position 18441
-Hi I'm process 27102 with return arg 9, I found the hidden key -13 in position 18487
-Hi I'm process 27102 with return arg 9, I found the hidden key -35 in position 18515
-Hi I'm process 27102 with return arg 9, I found the hidden key -71 in position 18536
-Process 27102 (return arg 9): Max=992, Avg=488.02, HiddenKeys=4
+Aggregated (pid 50254): Max=629, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27095 analyzing range [8750, 9374]
-Hi I'm process 27095 with return arg 8 and my parent is 27082
-Process 27095 (return arg 8): Max=998, Avg=501.99, HiddenKeys=0
+Aggregated (pid 50246): Max=822, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27079 analyzing range [0, 624]
-Hi I'm process 27079 with return arg 5 and my parent is 27067
-Hi I'm process 27079 with return arg 5, I found the hidden key -50 in position 213
-Hi I'm process 27079 with return arg 5, I found the hidden key -48 in position 388
-Hi I'm process 27079 with return arg 5, I found the hidden key -36 in position 604
-Process 27079 (return arg 5): Max=998, Avg=480.79, HiddenKeys=3
+Hi I'm process 50264 with return arg 6 and my parent is 50263
+Hi I'm process 50264 with return arg 6, I found the hidden key -28 in position 5130
+Hi I'm process 50264 with return arg 6, I found the hidden key -62 in position 5601
+Process 50264 (return arg 6): Max=998, Avg=496.28, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27099 analyzing range [18750, 19374]
-Hi I'm process 27099 with return arg 9 and my parent is 27087
-Hi I'm process 27099 with return arg 9, I found the hidden key -15 in position 18853
-Process 27099 (return arg 9): Max=1000, Avg=509.41, HiddenKeys=1
+Hi I'm process 50265 with return arg 7 and my parent is 50263
+Hi I'm process 50265 with return arg 7, I found the hidden key -54 in position 5709
+Hi I'm process 50265 with return arg 7, I found the hidden key -76 in position 5713
+Hi I'm process 50265 with return arg 7, I found the hidden key -46 in position 5901
+Hi I'm process 50265 with return arg 7, I found the hidden key -17 in position 5938
+Hi I'm process 50265 with return arg 7, I found the hidden key -79 in position 6056
+Process 50265 (return arg 7): Max=995, Avg=526.70, HiddenKeys=5
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27093 analyzing range [3750, 4374]
-Hi I'm process 27093 with return arg 7 and my parent is 27077
-Hi I'm process 27093 with return arg 7, I found the hidden key -15 in position 4013
-Hi I'm process 27093 with return arg 7, I found the hidden key -35 in position 4254
-Process 27093 (return arg 7): Max=999, Avg=501.15, HiddenKeys=2
+Aggregated (pid 50263): Max=303, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27103 analyzing range [9375, 9999]
-Hi I'm process 27103 with return arg 9 and my parent is 27082
-Hi I'm process 27103 with return arg 9, I found the hidden key -68 in position 9495
-Hi I'm process 27103 with return arg 9, I found the hidden key -75 in position 9615
-Hi I'm process 27103 with return arg 9, I found the hidden key -45 in position 9780
-Hi I'm process 27103 with return arg 9, I found the hidden key -45 in position 9883
-Hi I'm process 27103 with return arg 9, I found the hidden key -71 in position 9972
-Hi I'm process 27103 with return arg 9, I found the hidden key -16 in position 9986
-Process 27103 (return arg 9): Max=1000, Avg=497.28, HiddenKeys=6
+Hi I'm process 50267 with return arg 7 and my parent is 50266
+Hi I'm process 50267 with return arg 7, I found the hidden key -64 in position 6438
+Hi I'm process 50267 with return arg 7, I found the hidden key -69 in position 6476
+Hi I'm process 50267 with return arg 7, I found the hidden key -36 in position 6821
+Process 50267 (return arg 7): Max=999, Avg=515.65, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27068 analyzing range [3750, 3749]
-Hi I'm process 27068 with return arg 5 and my parent is 27063
-Process 27068 (return arg 5): Max=537, Avg=-nan, HiddenKeys=0
+Hi I'm process 50268 with return arg 8 and my parent is 50266
+Hi I'm process 50268 with return arg 8, I found the hidden key -69 in position 6896
+Hi I'm process 50268 with return arg 8, I found the hidden key -68 in position 7035
+Hi I'm process 50268 with return arg 8, I found the hidden key -28 in position 7191
+Hi I'm process 50268 with return arg 8, I found the hidden key -26 in position 7305
+Hi I'm process 50268 with return arg 8, I found the hidden key -71 in position 7307
+Process 50268 (return arg 8): Max=1000, Avg=495.53, HiddenKeys=5
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27107 analyzing range [19375, 19999]
-Hi I'm process 27107 with return arg 10 and my parent is 27087
-Process 27107 (return arg 10): Max=1000, Avg=484.61, HiddenKeys=0
+Aggregated (pid 50266): Max=66, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27104 analyzing range [6875, 7499]
-Hi I'm process 27104 with return arg 8 and my parent is 27080
-Hi I'm process 27104 with return arg 8, I found the hidden key -31 in position 7188
-Hi I'm process 27104 with return arg 8, I found the hidden key -16 in position 7272
-Hi I'm process 27104 with return arg 8, I found the hidden key -26 in position 7362
-Process 27104 (return arg 8): Max=1000, Avg=491.63, HiddenKeys=3
+Aggregated (pid 50262): Max=303, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27096 analyzing range [16250, 16874]
-Hi I'm process 27096 with return arg 8 and my parent is 27084
-Hi I'm process 27096 with return arg 8, I found the hidden key -50 in position 16354
-Hi I'm process 27096 with return arg 8, I found the hidden key -30 in position 16493
-Hi I'm process 27096 with return arg 8, I found the hidden key -17 in position 16853
-Process 27096 (return arg 8): Max=1000, Avg=502.96, HiddenKeys=3
+Hi I'm process 50271 with return arg 7 and my parent is 50270
+Hi I'm process 50271 with return arg 7, I found the hidden key -13 in position 7746
+Hi I'm process 50271 with return arg 7, I found the hidden key -58 in position 7866
+Hi I'm process 50271 with return arg 7, I found the hidden key -44 in position 7973
+Hi I'm process 50271 with return arg 7, I found the hidden key -18 in position 8099
+Process 50271 (return arg 7): Max=1000, Avg=495.59, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27109 analyzing range [16875, 17499]
-Hi I'm process 27109 with return arg 9 and my parent is 27084
-Hi I'm process 27109 with return arg 9, I found the hidden key -75 in position 17009
-Hi I'm process 27109 with return arg 9, I found the hidden key -77 in position 17016
-Process 27109 (return arg 9): Max=998, Avg=496.69, HiddenKeys=2
+Hi I'm process 50272 with return arg 8 and my parent is 50270
+Hi I'm process 50272 with return arg 8, I found the hidden key -69 in position 8359
+Hi I'm process 50272 with return arg 8, I found the hidden key -8 in position 8362
+Hi I'm process 50272 with return arg 8, I found the hidden key -78 in position 8392
+Hi I'm process 50272 with return arg 8, I found the hidden key -79 in position 8505
+Process 50272 (return arg 8): Max=998, Avg=508.11, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27105 analyzing range [4375, 4999]
-Hi I'm process 27105 with return arg 8 and my parent is 27077
-Hi I'm process 27105 with return arg 8, I found the hidden key -75 in position 4480
-Hi I'm process 27105 with return arg 8, I found the hidden key -22 in position 4483
-Hi I'm process 27105 with return arg 8, I found the hidden key -43 in position 4595
-Hi I'm process 27105 with return arg 8, I found the hidden key -77 in position 4627
-Hi I'm process 27105 with return arg 8, I found the hidden key -62 in position 4704
-Hi I'm process 27105 with return arg 8, I found the hidden key -49 in position 4871
-Process 27105 (return arg 8): Max=1000, Avg=484.76, HiddenKeys=6
+Aggregated (pid 50270): Max=212, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27101 analyzing range [11250, 11874]
-Hi I'm process 27101 with return arg 7 and my parent is 27070
-Hi I'm process 27101 with return arg 7, I found the hidden key -69 in position 11381
-Process 27101 (return arg 7): Max=1000, Avg=507.89, HiddenKeys=1
+Hi I'm process 50274 with return arg 8 and my parent is 50273
+Hi I'm process 50274 with return arg 8, I found the hidden key -17 in position 8898
+Process 50274 (return arg 8): Max=1000, Avg=504.90, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27069 analyzing range [13750, 13749]
-Hi I'm process 27069 with return arg 6 and my parent is 27060
-Process 27069 (return arg 6): Max=640, Avg=-nan, HiddenKeys=0
+Hi I'm process 50275 with return arg 9 and my parent is 50273
+Hi I'm process 50275 with return arg 9, I found the hidden key -64 in position 9603
+Hi I'm process 50275 with return arg 9, I found the hidden key -69 in position 9656
+Process 50275 (return arg 9): Max=1000, Avg=515.28, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27100 analyzing range [1250, 1874]
-Hi I'm process 27100 with return arg 6 and my parent is 27075
-Hi I'm process 27100 with return arg 6, I found the hidden key -36 in position 1585
-Hi I'm process 27100 with return arg 6, I found the hidden key -72 in position 1630
-Hi I'm process 27100 with return arg 6, I found the hidden key -46 in position 1673
-Hi I'm process 27100 with return arg 6, I found the hidden key -18 in position 1733
-Process 27100 (return arg 6): Max=999, Avg=504.58, HiddenKeys=4
+Aggregated (pid 50273): Max=697, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27106 analyzing range [13750, 14374]
-Hi I'm process 27106 with return arg 8 and my parent is 27076
-Hi I'm process 27106 with return arg 8, I found the hidden key -8 in position 13864
-Hi I'm process 27106 with return arg 8, I found the hidden key -4 in position 14194
-Hi I'm process 27106 with return arg 8, I found the hidden key -69 in position 14312
-Process 27106 (return arg 8): Max=1000, Avg=492.32, HiddenKeys=3
+Aggregated (pid 50269): Max=212, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27110 analyzing range [11875, 12499]
-Hi I'm process 27110 with return arg 8 and my parent is 27070
-Hi I'm process 27110 with return arg 8, I found the hidden key -57 in position 11939
-Process 27110 (return arg 8): Max=999, Avg=503.83, HiddenKeys=1
+Aggregated (pid 50261): Max=303, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27078 analyzing range [18750, 18749]
-Hi I'm process 27078 with return arg 7 and my parent is 27065
-Process 27078 (return arg 7): Max=460, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50245): Max=822, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27082 analyzing range [10000, 9999]
-Hi I'm process 27082 with return arg 7 and my parent is 27064
-Process 27082 (return arg 7): Max=31, Avg=-nan, HiddenKeys=0
+Hi I'm process 50280 with return arg 6 and my parent is 50279
+Hi I'm process 50280 with return arg 6, I found the hidden key -13 in position 10081
+Hi I'm process 50280 with return arg 6, I found the hidden key -23 in position 10529
+Hi I'm process 50280 with return arg 6, I found the hidden key -1 in position 10604
+Process 50280 (return arg 6): Max=999, Avg=510.82, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27067 analyzing range [1250, 1249]
-Hi I'm process 27067 with return arg 4 and my parent is 27059
-Process 27067 (return arg 4): Max=567, Avg=-nan, HiddenKeys=0
+Hi I'm process 50281 with return arg 7 and my parent is 50279
+Hi I'm process 50281 with return arg 7, I found the hidden key -19 in position 10656
+Hi I'm process 50281 with return arg 7, I found the hidden key -18 in position 11036
+Hi I'm process 50281 with return arg 7, I found the hidden key -38 in position 11050
+Hi I'm process 50281 with return arg 7, I found the hidden key -31 in position 11149
+Hi I'm process 50281 with return arg 7, I found the hidden key -4 in position 11187
+Process 50281 (return arg 7): Max=999, Avg=486.49, HiddenKeys=5
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27080 analyzing range [7500, 7499]
-Hi I'm process 27080 with return arg 6 and my parent is 27061
-Process 27080 (return arg 6): Max=789, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50279): Max=869, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27108 analyzing range [1875, 2499]
-Hi I'm process 27108 with return arg 7 and my parent is 27075
-Hi I'm process 27108 with return arg 7, I found the hidden key -5 in position 2359
-Process 27108 (return arg 7): Max=1000, Avg=484.47, HiddenKeys=1
+Hi I'm process 50283 with return arg 7 and my parent is 50282
+Hi I'm process 50283 with return arg 7, I found the hidden key -42 in position 11450
+Hi I'm process 50283 with return arg 7, I found the hidden key -30 in position 11651
+Process 50283 (return arg 7): Max=998, Avg=469.97, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27111 analyzing range [14375, 14999]
-Hi I'm process 27111 with return arg 9 and my parent is 27076
-Hi I'm process 27111 with return arg 9, I found the hidden key -21 in position 14617
-Hi I'm process 27111 with return arg 9, I found the hidden key -70 in position 14981
-Process 27111 (return arg 9): Max=993, Avg=496.28, HiddenKeys=2
+Hi I'm process 50284 with return arg 8 and my parent is 50282
+Hi I'm process 50284 with return arg 8, I found the hidden key -58 in position 12049
+Hi I'm process 50284 with return arg 8, I found the hidden key -32 in position 12249
+Hi I'm process 50284 with return arg 8, I found the hidden key -59 in position 12292
+Process 50284 (return arg 8): Max=1000, Avg=502.10, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27072 analyzing range [6250, 6249]
-Hi I'm process 27072 with return arg 5 and my parent is 27061
-Process 27072 (return arg 5): Max=118, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50282): Max=7, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27071 analyzing range [8750, 8749]
-Hi I'm process 27071 with return arg 6 and my parent is 27064
-Process 27071 (return arg 6): Max=105, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50278): Max=869, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27084 analyzing range [17500, 17499]
-Hi I'm process 27084 with return arg 7 and my parent is 27062
-Process 27084 (return arg 7): Max=715, Avg=-nan, HiddenKeys=0
+Hi I'm process 50287 with return arg 7 and my parent is 50286
+Hi I'm process 50287 with return arg 7, I found the hidden key -79 in position 12603
+Hi I'm process 50287 with return arg 7, I found the hidden key -58 in position 12803
+Hi I'm process 50287 with return arg 7, I found the hidden key -47 in position 12953
+Process 50287 (return arg 7): Max=1000, Avg=501.95, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27087 analyzing range [20000, 19999]
-Hi I'm process 27087 with return arg 8 and my parent is 27065
-Process 27087 (return arg 8): Max=0, Avg=-nan, HiddenKeys=0
+Hi I'm process 50288 with return arg 8 and my parent is 50286
+Hi I'm process 50288 with return arg 8, I found the hidden key -20 in position 13199
+Hi I'm process 50288 with return arg 8, I found the hidden key -64 in position 13388
+Process 50288 (return arg 8): Max=999, Avg=486.50, HiddenKeys=2
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27112 analyzing range [15000, 15624]
-Hi I'm process 27112 with return arg 7 and my parent is 27074
-Hi I'm process 27112 with return arg 7, I found the hidden key -32 in position 15179
-Hi I'm process 27112 with return arg 7, I found the hidden key -50 in position 15270
-Hi I'm process 27112 with return arg 7, I found the hidden key -7 in position 15335
-Hi I'm process 27112 with return arg 7, I found the hidden key -80 in position 15341
-Process 27112 (return arg 7): Max=998, Avg=480.31, HiddenKeys=4
+Aggregated (pid 50286): Max=694, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27077 analyzing range [5000, 4999]
-Hi I'm process 27077 with return arg 6 and my parent is 27063
-Process 27077 (return arg 6): Max=769, Avg=-nan, HiddenKeys=0
+Hi I'm process 50290 with return arg 8 and my parent is 50289
+Hi I'm process 50290 with return arg 8, I found the hidden key -20 in position 14002
+Hi I'm process 50290 with return arg 8, I found the hidden key -53 in position 14130
+Hi I'm process 50290 with return arg 8, I found the hidden key -48 in position 14278
+Process 50290 (return arg 8): Max=1000, Avg=501.82, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27070 analyzing range [12500, 12499]
-Hi I'm process 27070 with return arg 6 and my parent is 27058
-Process 27070 (return arg 6): Max=3, Avg=-nan, HiddenKeys=0
+Hi I'm process 50291 with return arg 9 and my parent is 50289
+Hi I'm process 50291 with return arg 9, I found the hidden key -68 in position 14459
+Process 50291 (return arg 9): Max=1000, Avg=483.86, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27113 analyzing range [15625, 16249]
-Hi I'm process 27113 with return arg 8 and my parent is 27074
-Hi I'm process 27113 with return arg 8, I found the hidden key -70 in position 15702
-Hi I'm process 27113 with return arg 8, I found the hidden key -17 in position 16148
-Process 27113 (return arg 8): Max=1000, Avg=487.89, HiddenKeys=2
+Aggregated (pid 50289): Max=237, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27061 analyzing range [7500, 7499]
-Hi I'm process 27061 with return arg 4 and my parent is 27057
-Process 27061 (return arg 4): Max=789, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50285): Max=694, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27066 analyzing range [11250, 11249]
-Hi I'm process 27066 with return arg 5 and my parent is 27058
-Process 27066 (return arg 5): Max=870, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50277): Max=869, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27064 analyzing range [10000, 9999]
-Hi I'm process 27064 with return arg 5 and my parent is 27057
-Process 27064 (return arg 5): Max=31, Avg=-nan, HiddenKeys=0
+Hi I'm process 50295 with return arg 7 and my parent is 50294
+Hi I'm process 50295 with return arg 7, I found the hidden key -71 in position 15051
+Hi I'm process 50295 with return arg 7, I found the hidden key -28 in position 15319
+Hi I'm process 50295 with return arg 7, I found the hidden key -24 in position 15439
+Process 50295 (return arg 7): Max=999, Avg=501.72, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27076 analyzing range [15000, 14999]
-Hi I'm process 27076 with return arg 7 and my parent is 27060
-Process 27076 (return arg 7): Max=130, Avg=-nan, HiddenKeys=0
+Hi I'm process 50296 with return arg 8 and my parent is 50294
+Hi I'm process 50296 with return arg 8, I found the hidden key -13 in position 15777
+Hi I'm process 50296 with return arg 8, I found the hidden key -46 in position 15781
+Hi I'm process 50296 with return arg 8, I found the hidden key -64 in position 16038
+Hi I'm process 50296 with return arg 8, I found the hidden key -21 in position 16159
+Process 50296 (return arg 8): Max=999, Avg=500.68, HiddenKeys=4
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27063 analyzing range [5000, 4999]
-Hi I'm process 27063 with return arg 4 and my parent is 27055
-Process 27063 (return arg 4): Max=769, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50294): Max=121, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27075 analyzing range [2500, 2499]
-Hi I'm process 27075 with return arg 5 and my parent is 27059
-Process 27075 (return arg 5): Max=643, Avg=-nan, HiddenKeys=0
+Hi I'm process 50298 with return arg 8 and my parent is 50297
+Hi I'm process 50298 with return arg 8, I found the hidden key -35 in position 16830
+Process 50298 (return arg 8): Max=999, Avg=491.64, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27065 analyzing range [20000, 19999]
-Hi I'm process 27065 with return arg 6 and my parent is 27056
-Process 27065 (return arg 6): Max=0, Avg=-nan, HiddenKeys=0
+Hi I'm process 50299 with return arg 9 and my parent is 50297
+Process 50299 (return arg 9): Max=1000, Avg=494.66, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27074 analyzing range [16250, 16249]
-Hi I'm process 27074 with return arg 6 and my parent is 27062
-Process 27074 (return arg 6): Max=993, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50297): Max=615, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27058 analyzing range [12500, 12499]
-Hi I'm process 27058 with return arg 4 and my parent is 27054
-Process 27058 (return arg 4): Max=3, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50293): Max=121, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27059 analyzing range [2500, 2499]
-Hi I'm process 27059 with return arg 3 and my parent is 27055
-Process 27059 (return arg 3): Max=643, Avg=-nan, HiddenKeys=0
+Hi I'm process 50302 with return arg 8 and my parent is 50301
+Hi I'm process 50302 with return arg 8, I found the hidden key -78 in position 17576
+Hi I'm process 50302 with return arg 8, I found the hidden key -20 in position 17730
+Hi I'm process 50302 with return arg 8, I found the hidden key -56 in position 18005
+Process 50302 (return arg 8): Max=999, Avg=518.52, HiddenKeys=3
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27057 analyzing range [10000, 9999]
-Hi I'm process 27057 with return arg 3 and my parent is 27052
-Process 27057 (return arg 3): Max=31, Avg=-nan, HiddenKeys=0
+Hi I'm process 50303 with return arg 9 and my parent is 50301
+Process 50303 (return arg 9): Max=998, Avg=491.56, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27060 analyzing range [15000, 14999]
-Hi I'm process 27060 with return arg 5 and my parent is 27054
-Process 27060 (return arg 5): Max=130, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50301): Max=985, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27055 analyzing range [5000, 4999]
-Hi I'm process 27055 with return arg 2 and my parent is 27052
-Process 27055 (return arg 2): Max=769, Avg=-nan, HiddenKeys=0
+Hi I'm process 50305 with return arg 9 and my parent is 50304
+Hi I'm process 50305 with return arg 9, I found the hidden key -14 in position 19168
+Process 50305 (return arg 9): Max=1000, Avg=511.28, HiddenKeys=1
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27062 analyzing range [17500, 17499]
-Hi I'm process 27062 with return arg 5 and my parent is 27056
-Process 27062 (return arg 5): Max=715, Avg=-nan, HiddenKeys=0
+Hi I'm process 50306 with return arg 10 and my parent is 50304
+Process 50306 (return arg 10): Max=1000, Avg=515.28, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27052 analyzing range [10000, 9999]
-Hi I'm process 27052 with return arg 1 and my parent is 27051
-Process 27052 (return arg 1): Max=31, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50304): Max=112, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27054 analyzing range [15000, 14999]
-Hi I'm process 27054 with return arg 3 and my parent is 27053
-Process 27054 (return arg 3): Max=130, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50300): Max=985, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27056 analyzing range [20000, 19999]
-Hi I'm process 27056 with return arg 4 and my parent is 27053
-Process 27056 (return arg 4): Max=0, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50292): Max=121, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27053 analyzing range [20000, 19999]
-Hi I'm process 27053 with return arg 2 and my parent is 27051
-Process 27053 (return arg 2): Max=0, Avg=-nan, HiddenKeys=0
+Aggregated (pid 50276): Max=869, Avg=-nan, HiddenKeys=0
 Successfully generated input.txt with 20000 total integers and 80 negative integers
 Running BFS tree: each child forks 2 childs...
-Process 27051 analyzing range [20000, 19999]
-Hi I'm process 27051 with return arg 0 and my parent is 27050
-Process 27051 (return arg 0): Max=0, Avg=-nan, HiddenKeys=0
-For a list of 20000 numbers, the search took 0.203678 seconds.
+Aggregated (pid 50244): Max=822, Avg=-nan, HiddenKeys=0
+For a list of 20000 numbers, the search took 0.022270 seconds.
