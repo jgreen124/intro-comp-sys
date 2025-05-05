@@ -12,6 +12,9 @@
  * - Performs a dummy computation to allow time for signal delivery.
  */
 
+/* Thread worker function used in signal handling test.
+    - Select 4 of 8 signals to handle and block the rest
+    - Perform long computation */
 void *thread_function(void *arg);
 
 #endif // THREAD_H
