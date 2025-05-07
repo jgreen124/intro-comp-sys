@@ -6,7 +6,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define NUM_THREADS 4 // Total number of worker threads
+thread_info_t tinfo[NUM_THREADS];
+pthread_t main_thread_id;
 
 // SIGINT handler for main process
 void handle_sigint(int signo) {
@@ -25,6 +26,9 @@ int main() {
 
   // Set up global signal handlers for all relevant signals
   setup_signal_handlers();
+
+  // 
+  main_thread_id = pthread_self();
 
   // Create NUM_THREADS worker threads, passing each its metadata pointer
   for (int i = 0; i < NUM_THREADS; ++i) {

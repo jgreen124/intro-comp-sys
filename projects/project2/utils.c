@@ -8,6 +8,8 @@
 #include <time.h>
 #include <unistd.h>
 
+//#define NUM_THREADS 4  // moved here from main.c
+
 // Define the list of signals to randomly assign and send (SIGINT intentionally
 // excluded)
 int all_signals[] = {SIGABRT, SIGILL, SIGCHLD, SIGSEGV,
