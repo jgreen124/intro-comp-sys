@@ -342,3 +342,55 @@ A signal handler processes Signals
 - Signal is handled by default or user defined handler
 
 Every signal has a defualt handler that can be overriden with a user-defined handler.
+
+For multi-threaded processes:
+
+- Deliver signal to thread to which the signal applies (synchronous signals)
+- Deliver signal to every thread in process
+- Deliver signal to certain threads in process
+- Assign a specific thread to receive all signals
+
+UNIX standard function for delivering signal: `kill (pid_t pid, int signal)`
+
+Synchronous signals need to be delivered to thread causing signal and not to other threads, while asynchronous ones need to be sent to generally a couple or all threads (like CTRL-C for example)
+
+Generally, the first thread that isn't blocking a signal is the one that handles a signal unless the signal needs to be received by every thread. This is also normally the thread with the lowest tid
+
+For pthread signal delivery: `Pthread_kill (pthread_t tid, int signal)`
+
+### Practice Problems
+
+### Slides 60-63
+
+#### Problem 1
+
+Multi-threaded Web-server: Each thread serves one incoming request by loading a video file from a disk using OS system calls. There are thousand incoming requests and only limited threads to serve the requests.
+Question: User threads or Kernel threads should be used? Why?
+
+- Use kernel threads because each thread will make blocking I/O calls and kernel threads won't be blocked. If user-threads are used, one thread will block all others
+
+Multi-threaded web-server for Twitter, performing many and diverse tasks: loads ads from followers, news, checks for new messages. Twitter has a very big data storage capacity in all levels of hierarchy.Question: How would you structure your multithreaded server now (prefer to use user or
+kernel threads)?
+
+- Use user-threads because threads won't make blocking calls and user-threads are generally more efficient than kernel threads
+
+#### Problem 2
+
+Question: How many threads is it preferable to spawn on a multi-core processor of 4 hyper-threaded cores to execute either 256 CPU-intense or 256 I/O intense multithreaded applications:
+(a) 4 for CPU intense and 4 for I/O intense
+(b) 4 for CPU intense and 32 for I/O intense
+(c) 8 for CPU intense and 64 for I/O intense
+(d) 32 for CPU intense and 8 for I/O intense
+(e) 64 for CPU intense and 128 for I/O intense
+(f) 128 for CPU intense and 64 for I/O intense
+(g) 256 for CPU intense and 256 for I/O intense
+
+- C: for CPU intense tasks, use all available virtual cores (8 in this case). For I/O intense tasks, threads often idle, so having more threads allows CPU to do more things while some threads wait
+- In short, you want to balance maximizing resource utilization while not causing too large of an overhead
+
+#### Problem 3
+
+Question: Describe a potential configuration for hardware threads – software threads
+(user and kernel threads) for an environment of 4 physical cores, applying Intel’s hyper-
+threading. Let’s assume that our OS is such that restricts the total number of software
+threads to 100.
