@@ -10,6 +10,9 @@
 #include <time.h>
 #include <unistd.h>
 
+extern thread_info_t tinfo[];            // Access to all thread metadata
+extern pthread_t main_thread_id;         // Main thread ID from main.c
+
 // External declarations for the global signal set and its size
 extern int all_signals[];
 extern const int NUM_SIGNALS;
@@ -69,13 +72,48 @@ void *thread_function(void *arg) {
   // Perform a long-running computation: sum from 0 to 10 * tid
   // Sleep 1 second per iteration to allow signal delivery
   int sum = 0;
-  int end = 10 * tid;
+  int end = 20;
+  //int end = 10 * tid; //was reduced to above line run the signal sending test quicker
   for (int i = 0; i <= end; ++i) {
     sum += i;
     sleep(1);
   }
 
   // Final output after computation completes (optional for testing)
-  printf("Thread TID %d: Computed sum from 0 to %d = %d\n", tid, end, sum);
-  pthread_exit(NULL);
+  //printf("Thread TID %d: Computed sum from 0 to %d = %d\n", tid, end, sum);
+  //pthread_exit(NULL);
+
+  // send-signals for part2 Q2
+    // Final output after computation completes (optional for testing)
+    printf("Thread TID %d: Computed sum from 0 to %d = %d\n", tid, end, sum);
+
+    // Q2: Send a signal to another thread and to the main thread
+    int self_index = -1;
+    for (int i = 0; i < NUM_THREADS; ++i) {
+      if (tinfo[i].tid == tid) {
+        self_index = i;
+        break;
+      }
+    }
+    int target_index = (self_index + 1) % NUM_THREADS;
+    pthread_t target_thread = tinfo[target_index].thread_id;
+    pid_t target_tid = tinfo[target_index].tid;
+  
+    int test_signal = SIGFPE;  // choose any signal for testing
+  
+    // Send signal to another thread
+    printf("Thread TID %d: Sending signal %d to thread TID %d\n", tid, test_signal, target_tid);
+    pthread_kill(target_thread, test_signal);
+  
+    // Send signal to the main thread
+    printf("Thread TID %d: Sending signal %d to MAIN thread\n", tid, SIGILL);
+    pthread_kill(main_thread_id, SIGILL);
+  
+    // Repeat both signals
+    pthread_kill(target_thread, test_signal);
+    pthread_kill(main_thread_id, SIGILL);
+  
+    pthread_exit(NULL);
+  
+
 }

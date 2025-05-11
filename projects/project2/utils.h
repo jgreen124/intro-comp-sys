@@ -8,6 +8,8 @@
 #define MAX_SIGNALS 8        // Max number of signals in the system
 #define SIGNALS_PER_THREAD 4 // Each thread handles 4 of the possible signals
 
+#define NUM_THREADS 4 // number of worker threads
+
 // Store per-thread information
 typedef struct {
   pthread_t thread_id;             // Thread ID
