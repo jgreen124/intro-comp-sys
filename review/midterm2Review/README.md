@@ -390,7 +390,10 @@ Question: How many threads is it preferable to spawn on a multi-core processor o
 
 #### Problem 3
 
-Question: Describe a potential configuration for hardware threads – software threads
-(user and kernel threads) for an environment of 4 physical cores, applying Intel’s hyper-
-threading. Let’s assume that our OS is such that restricts the total number of software
+Question: Describe a potential configuration for hardware threads – software threads (user and kernel threads) for an environment of 4 physical cores, applying Intel’s hyper-threading. Let’s assume that our OS is such that restricts the total number of software
 threads to 100.
+
+- At most we can run 8 threads in parallel at the same time
+- At most, `user threads + kernel threads = 100`
+- Let's assume 1:1 model (each user thread maps to one kernel thread)
+- Since threads may not need to be active all the time we can use more threads
